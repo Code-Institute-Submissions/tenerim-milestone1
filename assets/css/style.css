@@ -3,13 +3,13 @@
 }
 
 section {
-        background-color: rgb(220, 220, 220);
-        padding-top: 50px;
-        padding-bottom: 50px;
+    background-color: rgb(220, 220, 220);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .splash {
-       background-color: rgb(220, 220, 220); 
+    background-color: rgb(192, 192, 192);
 }
 
 
@@ -27,11 +27,45 @@ section {
     border-radius: 25px;
     border: 2px solid #73AD21;
     padding: 10px;
-    text-align: center; 
-    width: 200px; 
+    text-align: center;
+    width: 200px;
 
 }
 
+h4 {
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*--------------------------------------How I Got Here-----*/
+
+.timeline-item {
+    padding: 0em 1em 1em 1em;
+    border-left: 1px solid;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-weight: 500;
+    font-size: 1em;
+    color: #fafafa;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: -5em;
+    position: relative;
+    left: -23px;
+    border-radius: 12px;
+    content: "";
+    background: #fafafa;
+}
 
 
 /*--------------------------------------Footer-----*/
