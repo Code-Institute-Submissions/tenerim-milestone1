@@ -8,6 +8,7 @@ section {
     padding-bottom: 50px;
 }
 
+
 .splash {
     background-color: rgb(192, 192, 192);
 }
@@ -56,7 +57,7 @@ color: rgb(255, 255, 255);
     display: block;
     font-weight: 500;
     font-size: 1em;
-    color: #fafafa;
+    color: #000099;
 }
 
 .timeline-item:after {
@@ -68,7 +69,7 @@ color: rgb(255, 255, 255);
     left: -23px;
     border-radius: 12px;
     content: "";
-    background: #fafafa;
+    background: #000099;
 }
 
 
@@ -131,3 +132,37 @@ color: rgb(255, 255, 255);
 #footer-details {
     padding: 20px;
 }
+
+
+/*--------------------------------------Padding-----*/
+
+.container 
+{
+    padding-top: 25px; 
+    padding-bottom: 25px;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+
+
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+
+
+h5 {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.fa {
+    padding-top: 10px;
+    padding-bottom: 10px
+ }   
+    
