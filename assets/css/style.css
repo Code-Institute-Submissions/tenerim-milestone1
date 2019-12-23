@@ -38,14 +38,21 @@ h4 {
 }
 
 
+
 .alert-link {
     
 color: rgb(255, 255, 255)
 }
 
 .nav-link {
-color: #000099
+    color: #1a1a1a
 }
+
+
+.btn {
+    color: #1a1a1a
+}
+
 
 .fa {
      color: #000099
@@ -146,6 +153,11 @@ color: #000099
 
 /*--------------------------------------Padding-----*/
 
+li     {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
 .container 
 {
     padding-top: 10px; 
@@ -179,6 +191,12 @@ h5 {
 .btn-block  {
      margin-top: 10px
     }
+    
+  .btn  {
+     margin-bottom: 15px
+    }  
+    
+    
 
 .text-center {
     padding-top: 20px
