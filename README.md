@@ -53,7 +53,9 @@ All my testing was completed manually. The specific steps taken are listed below
 * This also ensured the text aligned appropriately for the screen size chosen. 
 
 ## Deployment
-This project was deployed to GitHub Pages: https://github.com/tenerim/milestone1  
+This project is hosted through GitHub Pages: https://tenerim.github.io/milestone1/ 
+
+All code is saved to the following repository in github: https://github.com/tenerim/milestone1  
 
 ## Credits
 * Footer
